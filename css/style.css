@@ -34,7 +34,18 @@
 }
 .topbar {
     height: 100px;
-    background-color: grey;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: flex-end;
+}
+.upgrade {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 5px 15px ;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: rgb(63, 63, 63);
 }
 #principal {
     display: flex;
@@ -45,7 +56,7 @@
     margin-bottom: 100px;
 }
 .main {
-    background-color: yellow;
+    background-color: rgb(37, 35, 62);
     min-height: 100%;
 }
 .brano {
@@ -116,4 +127,28 @@ hr {
 }
 .barra-2 {
     width: 100px;
+}
+.categorie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.album {
+    max-width: calc(100%/6);
+    padding: 10px;
+}
+.figure {
+    width: 80px;
+    height: 80px;
+}
+.title {
+    text-align: center;
+}
+.subtitle {
+    color: gray;
+    text-align: center;
 }
