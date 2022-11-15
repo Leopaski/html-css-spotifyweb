@@ -9,7 +9,7 @@
     width: 100%;
 }
 #footer {
-    background-color: blue;
+    background-color: rgb(63, 63, 63);
     position: fixed;
     left: 0;
     right: 0;
@@ -49,15 +49,13 @@
     min-height: 100%;
 }
 .brano {
-    border: 3px solid black;
     flex-grow: 1;
+    padding: 20px 10px;
 }
 .play {
-    border:3px solid black;
     flex-grow: 2;
 }
 .volume {
-    border:3px solid black;
     flex-grow: 1;
 }
 .icon {
@@ -93,4 +91,29 @@ hr {
 .profile{
     margin-bottom: 0;
     position: fixed;
+}
+.heart {
+    margin-left: 20px;
+}
+.folder {
+    margin: 10px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.barra {
+    width: 250px;
+    
+}
+.flex-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.barra-2 {
+    width: 100px;
 }
