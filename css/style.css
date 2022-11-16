@@ -133,10 +133,6 @@ hr {
     flex-direction: row;
     justify-content: center;
 }
-.row {
-    display: flex;
-    flex-direction: row;
-}
 .album {
     max-width: calc(100%/6);
     padding: 10px;
@@ -144,6 +140,9 @@ hr {
 .figure {
     width: 80px;
     height: 80px;
+}
+.circle {
+    border-radius: 100%;
 }
 .title {
     text-align: center;
